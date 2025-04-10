@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Nisha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        body {
+            background-color: rgb(18, 3, 61);
+            color: aliceblue;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            padding: 0 50px;
+            background-color: black;
+        }
+        nav .left {
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        nav ul a:hover {
+            color: rgb(216, 13, 199);
+        }
+        
+        .contact-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+        
+        .contact-content {
+            width: 50%;
+        }
+        .contact-content h1 {
+            font-size: 2.5rem;
+            color: blueviolet;
+        }
+        .contact-content p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin: 15px 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .contact-form textarea {
+            resize: none;
+            height: 120px;
+        }
+        .contact-form .btn {
+            padding: 12px;
+            background: blueviolet;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        .contact-form .btn:hover {
+            background: rgb(136, 3, 136);
+        }
+
+        .contact-image {
+            width: 45%;
+            text-align: center;
+        }
+        .contact-image img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+
+        .icon {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .icon p {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            margin: 8px 0;
+        }
+        .icon i {
+            color: blueviolet;
+            font-size: 22px;
+            margin-right: 10px;
+        }
+        @media (max-width: 900px) {
+            .contact-section {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px;
+            }
+            .contact-content, .contact-image {
+                width: 100%;
+            }
+            .contact-image img {
+                max-width: 280px;
+            }
+            .icon {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Nisha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="home.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="services.html"><li>Services</li></a>
+                    <a href="skills.html"><li>Skills</li></a>
+                    <a href="projects.html"><li>Projects</li></a>
+                    <a href="contact.html"><li>Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-content">
+            <h1>Contact Me</h1>
+            <p>Let's connect! Feel free to reach out for collaborations, project discussions, or any web development inquiries.</p>
+            <div class="icon">
+                <p><i class="fa-solid fa-envelope"></i> nisha@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 666764555</p>
+                <p><i class="fa-brands fa-instagram"></i> nishabairagi886</p>
+                <p><i class="fa-brands fa-telegram"></i> nisha@11233</p>
+            </div>
+        </div>
+
+        <div class="contact-image">
+            <img src="https://static.vecteezy.com/system/resources/previews/012/994/656/original/call-center-agent-of-customer-service-or-hotline-operator-with-headsets-and-computers-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg" alt="Contact Me">  
+        </div>
+    </section>
+</body>
+</html>
