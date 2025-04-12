@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(18, 3, 61);
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: black;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul a:hover {
+        font-size: 1.01rem;
+        color: rgb(216, 13, 199);
+      }
+      h1{
+        color: white;
+      }
+        .service{
+            display: flex;
+
+        }
+        .card{
+            display: inline;
+            float: left;
+            overflow: hidden;
+            height: 300px;
+            width: 350px;
+            margin-left: 70px;
+            margin-top:30px;
+            border: 2px solid wheat 
+        }
+        .card img{
+            height: 200px;
+            width: 350px;
+            align-items: center;
+        }
+        .left {
+        font-size: 30px;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            
+                <div class="left">Nisha's Portfolio</div>
+                <div class="right">
+                  <ul>
+                    <a href="home.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="services.html"><li>Services</li></a>
+                    <a href="skills.html"><li>Skills</li></a>
+                    <a href="projects.html"><li>Projects</li></a>
+                    <a href="contact.html"><li>Contact Me</li></a>
+                  </ul>
+                </div>
+              </nav>
+             
+    </header>
+    <h1 class="text-center ">Our services</h1>
+    <section  class="d-inline service">
+        <div class="card">
+            <img src="https://thehubbackend.com/media/Front-end_Developer.webp" alt="frontend developer">
+            <p>Skills: React.js, HTML, CSS, JavaScript, Bootstrap, Tailwind CSS
+                💡 Description:
+                ✔️ Building modern, responsive, and user-friendly web interfaces.
+                ✔️ Creating interactive and dynamic web experiences using React</p>
+        </div>
+        <div  class="card">
+            <img src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?t=st=1742635842~exp=1742639442~hmac=0b69a76925d74c6c58eb303bf99cb6e41d69d3045da558f0faef05b4f7ee29d6&w=996" alt="backend developer">
+            <p>Skills: Node.js, Express.js, MongoDB, REST APIs
+                💡 Description:
+                ✔️ Developing powerful and scalable server-side applications.
+                ✔️ Creating secure and efficient RESTful APIs.
+                ✔️ Managing databases and backend logic for applications.</p>
+
+        </div>
+        <div  class="card">
+            <img src="https://infinitegraphixads.com/wp-content/uploads/2020/11/Full-Stack-Developer-Course.png" alt="full stack developer">
+            <p> Description:
+                ✔️ End-to-end web application development using MERN Stack (MongoDB, Express.js, React.js, Node.js).
+                ✔️ Combining frontend and backend for a complete, fully functional web app.
+                Skills: Figma, Adobe XD, CSS Animations, Responsive Design</p>
+        </div>
+        <div  class="card">
+            <img src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?t=st=1742635731~exp=1742639331~hmac=dccd9a1cbea902336d7aa17101f3904d46307478a4422b4073aa782866ed991b&w=996" alt="ui-ux design">
+            <p>
+            💡 Description:
+            ✔️ Creating visually appealing and intuitive UI designs.
+            ✔️ Ensuring mobile-friendly and responsive layouts.
+            Skills: MongoDB, Firebase, MySQL
+                </p>
+        </div>
+        <div  class="card">
+            <img src="https://s7280.pcdn.co/wp-content/uploads/2016/06/database-blue.png" alt="data-base">
+        <p>
+          💡 Description:
+      ✔️ Designing and managing database structures.
+         ✔️ Optimizing database queries for better performance.
+            </p>
+        <div  class="card">
+            <img src="https://assets-160c6.kxcdn.com/wp-content/uploads/2020/04/2020-04-02-en-de-1024x538.png" alt="">
+            <p>
+                💡 Description:
+                ✔️ Creating RESTful APIs for web and mobile apps.
+                ✔️ Integrating third-party APIs like payment gateways, Google Maps, etc.</p>
+        </div>
+    </section>
+</body>
+</html>
